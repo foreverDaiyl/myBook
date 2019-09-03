@@ -30,7 +30,7 @@
 .footer{
     position:fixed;
     bottom:0;
-    z-index:100;
+    z-index:10001;
     width:100%;
     border-top:1px solid #ccc;
     background:#fff;

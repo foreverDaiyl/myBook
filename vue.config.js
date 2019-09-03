@@ -24,3 +24,16 @@
 //         // }
 //     }
 // }
+
+module.exports={
+    lintOnSave:true,
+    devServer:{
+        proxy:{
+            '/api':{
+                target:'http://localhost:8003',
+                changeOrigin:true,
+                secure:true
+            }
+        }
+    }
+}
